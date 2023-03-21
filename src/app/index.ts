@@ -12,4 +12,6 @@ app.register(transactionsRoutes, {
   prefix: "transactions",
 });
 
+app.get("/", () => ({ message: "hello world!" }));
+
 export { app };
